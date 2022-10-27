@@ -1,3 +1,2 @@
 # sandboxd
-
-# Django frontend and Firebase backend
+### Django frontend and Firebase backend
