@@ -15,7 +15,7 @@ database=firebase.database()
 def home(request):
 	day = database.child('Data').child('Day').get().val()
 	id = database.child('Data').child('Id').get().val()
-	projectname = database.child('Data').child('Projectname').get().val()
+	projectname = database.child('Data').child('ProjectName').get().val()
 	return render(request,"Home.html",{"day":day,"id":id,"projectname":projectname })
 
 
