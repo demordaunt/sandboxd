@@ -19,3 +19,4 @@ def home(request):
 	return render(request,"Home.html",{"day":day,"id":id,"projectname":projectname })
 
 
+
